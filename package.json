@@ -1,24 +1,20 @@
 {
-  "name": "note-taker",
+  "name": "morey-note-taker",
   "version": "1.0.0",
-  "description": "",
-  "main": "server.js",
+  "description": "An application that takes down notes including dates and notes similar to a scheduler.",
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
-  },
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "express": "^4.17.1"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/mooreyc/note-taker.git"
+    "url": "git+ssh://git@github.com/mooreyc/note-taker.git"
   },
-  "keywords": [],
+  "author": "Casimiro Morey",
+  "license": "ISC",
   "bugs": {
     "url": "https://github.com/mooreyc/note-taker/issues"
   },
   "homepage": "https://github.com/mooreyc/note-taker#readme"
 }
+
